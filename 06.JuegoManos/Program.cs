@@ -12,7 +12,7 @@ namespace _06.JuegoManos
         {
             int Opcion1;
             int Opcion2;
-            Console.WriteLine("Programa que simula el juego de piedra, papel, tijer, lagarto, spock.");
+            Console.WriteLine("Programa que simula el juego de piedra, papel, tijeras, lagarto, spock.");
             Dictionary<string, string> reglas = ReglasDelJuego();
             do
             {
